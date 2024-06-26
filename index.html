@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/flex.css" />
+    <title>AluraGeek</title>
+</head>
+
+<body>
+    <section class="todo">
+        <header class="encabezado">
+            <img src="./img/alurageekheader.png">
+        </header>
+        <section class="cuerpo">
+            <section class="formulario">
+                <h1>Agregar<br>Producto:</h1>
+                <form data-formulario>
+                    <div>
+                        <input type="text" name="nombre" id="nombre" data-nombre placeholder="Nombre ..."
+                            class="entrada" />
+                    </div>
+                    <div>
+                        <input type="text" name="precio" id="precio" data-precio placeholder="Precio ..."
+                            class="entrada" />
+                    </div>
+                    <div>
+                        <input type="text" name="imagen" id="imagen" data-imagen placeholder="Imagen ..."
+                            class="entrada" />
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar" class="benvia" />
+                        <input type="reset" value="Limpiar" class="blimpia" />
+                    </div>
+                </form>
+            </section>
+            <section class="listado">
+                <ul class="listado-ul" data-listado></ul>
+            </section>
+        </section>
+        <footer class="pie">
+            <img src="./img/alurageekheader.png" />
+            <p>DESARROLLADO POR BENJAMIN SANTIAGO</p>
+            <p>ALURA LATAM 2024</p>
+        </footer>
+        <script src="./js/listaProducto.js" type="module"></script>
+        <script src="./js/creaProducto.js" type="module"></script>
+    </section>
+</body>
+
+</html>

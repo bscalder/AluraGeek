@@ -1,0 +1,44 @@
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 25px 0px 0px 0px;
+}
+
+.formulario {
+    flex-basis: 35%;
+    flex-shrink: 0;
+}
+
+.listado-ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 50px 0px 50px 0px;
+    flex-grow: 0;
+}
+
+.tarjeta-info--valor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pie {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media (max-width:768px) {
+    .cuerpo {
+        flex-direction: column;
+    }
+
+    .listado-ul {
+        grid-template-columns: auto auto;
+    }
+}

@@ -1,0 +1,80 @@
+.todo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: slateblue;
+    font-size: 20px;
+}
+
+.encabezado {
+    margin: auto;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.formulario h1 {
+    font-size: 40px;
+}
+
+.entrada {
+    width: 80%;
+    margin: 10px 0px 10px 0px;
+    padding: 20px 20px;
+    outline: 5px solid darkblue;
+    border-radius: 25px;
+}
+
+.benvia,
+.blimpia {
+    margin: 10px 5px 10px 5px;
+    width: 40%;
+    padding: 20px 20px;
+    outline: 5px solid darkblue;
+    border-radius: 20px;
+}
+
+.benvia {
+    background-color: indigo;
+    color: white;
+}
+
+.blimpia {
+    background-color: white;
+    color: indigo;
+}
+
+.tarjeta {
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    outline: 5px outset indigo;
+    background-color: blue;
+}
+
+.fototarjeta {
+    width: 75%;
+    height: auto;
+    outline: 5px solid indigo;
+    border: 5px darkblue;
+}
+
+.tarjeta-info {
+    text-align: left;
+    color: white;
+    margin: 10px 0px 10px 0px;
+}
+
+.botebasura {
+    width: 50px;
+    height: auto;
+}
+
+.tarjeta-info--valor {
+    margin: 25px 10px 10px 10px
+}
+
+.pie {
+    text-align: center;
+    color: white;
+    background-color: blue;
+}

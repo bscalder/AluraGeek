@@ -1,0 +1,46 @@
+{
+  "productos": [
+    {
+      "id": "b65d",
+      "nombre": "Tela de Javair",
+      "precio": "2.00",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_863308-MLM52423188731_112022-O.webp"
+    },
+    {
+      "id": "0fc4",
+      "nombre": "Tela en Pino",
+      "precio": "2.00",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_863308-MLM52423188731_112022-O.webp"
+    },
+    {
+      "id": "2fe1",
+      "nombre": "Tela Sambuto",
+      "precio": "2.00",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_863308-MLM52423188731_112022-O.webp"
+    },
+    {
+      "id": "6f78",
+      "nombre": "Tela Retaco",
+      "precio": "2.00",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_863308-MLM52423188731_112022-O.webp"
+    },
+    {
+      "id": "1642",
+      "nombre": "Pellizcadas de Hoyo",
+      "precio": "5.00",
+      "imagen": "https://www.imer.mx/radio710/wp-content/uploads/sites/17/Pellizcadas-veracruzanas.jpg"
+    },
+    {
+      "id": "598b",
+      "nombre": "Brida de Patas",
+      "precio": "8.00",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Flanschverbindung_Gasleitung.jpg"
+    },
+    {
+      "id": "5c44",
+      "nombre": "Chupon de manguera",
+      "precio": "2.00",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPitarSC5qrYFAvq_S_Bzsx9_dkigYqZGEfA&s"
+    }
+  ]
+}
